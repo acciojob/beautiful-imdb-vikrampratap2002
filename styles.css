@@ -1,2 +1,35 @@
 
 /* Your CSS Code here. */
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #141414;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        /* Movie Poster */
+        .moviePic {
+            height: 400px;
+            width: 270px;
+            opacity: 0.9;
+            margin-top: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+        }
+
+        /* Movie Description */
+        .movieDetail {
+            position: relative;
+            top: 30px;
+            width: 60%;
+            margin: auto;
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.6;
+            background-color: rgba(0,0,0,0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
